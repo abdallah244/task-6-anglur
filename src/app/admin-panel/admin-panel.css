@@ -1,0 +1,29 @@
+.admin-panel {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  color: white;
+}
+
+.card {
+  background: #1e1e2f;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #90caf9;
+}
+
+.card p {
+  color: #ccc;
+  font-size: 15px;
+}

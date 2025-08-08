@@ -1,0 +1,54 @@
+/* 🎆 خلفية متحركة */
+
+
+/* ✨ الحاوية */
+.login-container {
+  max-width: 400px;
+  margin: 120px auto;
+  padding: 40px 30px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+/* العنوان */
+.login-container h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+/* النص */
+.login-container p {
+  margin-bottom: 25px;
+  color: #ccc;
+  font-size: 16px;
+}
+
+/* الأزرار */
+.buttons button {
+  padding: 12px 25px;
+  margin: 0 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1e88e5;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #1565c0;
+  transform: scale(1.05);
+}
+
+/* 💫 الأنميشن */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
